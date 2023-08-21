@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Notekeeper App</title>
+	<link rel="icon" type="image/x-icon" href="C:\Users\AdminPC\Downloads\Desktop\frontend assignment\favicon1.ico">
+</head>
+<body>
+    <div class="container">
+        <h1>Notekeeper App</h1>
+        <button id="addNoteBtn">Add Note</button>
+        <div id="notesGrid" class="grid" style="background-color:silver"></div>
+    </div>
+    <div id="notePopup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+			
+			<fieldset align="center">
+			<legend>NOTE</legend><br>
+            <input type="text" id="popupTitle" placeholder="Title"><br><br>
+            <input type="text" id="popupTagline" placeholder="Tagline"><br><br>
+            <textarea id="popupBody" placeholder="Note body"></textarea><br><br>
+			
+            <button id="saveNoteBtn" type="submit">Save</button>
+			</fieldset>
+		
+        </div>
+    </div>
+	    <script src="script.js"></script>
+</body>
+</html>
